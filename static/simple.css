@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Inter', sans-serif !important;
+    font-size: medium;
+}
+
+body {
+    color: #dcdcdc;
+    background-color: #212121;
+    font-size: 1.15rem;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr min(45rem, 90%) 1fr;
+    margin: 0;
+}
+
+.button-primary, .button-secondary {
+    text-decoration: none;
+}
+
+.button-primary {
+    background-color: #ffb300 !important;
+    color: #000 !important;
+    border: 1px solid #ffb300 !important;
+    padding: 10px 20px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.button-secondary {
+    background-color: #afbfcc !important;
+    color: #000 !important;
+    border: 1px solid #afbfcc !important;
+    padding: 10px 20px !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.alert {
+    color: #dcdcdc !important;
+    background-color: #2b2b2b !important;
+    padding: 0.75rem 1.25rem !important;
+    margin-bottom: 1rem !important;
+    border: 1px solid transparent !important;
+    border-radius: 0.25rem !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    margin: 1.5rem 0 !important;
+}
+
+td {
+    white-space: nowrap;
+}
+
+td, th {
+    border: 1px solid #898EA4 !important;
+    text-align: center !important;
+    padding: 0.5rem !important;
+}
+
+th {
+    background-color: #2b2b2b !important;
+    font-weight: bold !important;
+}
+
+tr:nth-child(even) {
+    background-color: #2b2b2b !important;
+}
+
+table caption {
+    font-weight: bold !important;
+    margin-bottom: 0.5rem !important;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+    margin-top: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+h4 {
+    font-size: 1.44rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 0.96rem;
+}
+
+p {
+    margin: 1.5rem 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+}
+
+textarea,
+select,
+input,
+button,
+.button {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    box-shadow: none;
+    max-width: 100%;
+    display: inline-block;
+}
+
+textarea,
+select,
+input {
+    color: #dcdcdc;
+    background-color: #212121;
+    border: 1px solid #898EA4;
+}
+
+label {
+    display: block;
+}
+
+textarea:not([cols]) {
+    width: 100%;
+}
+
+select:not([multiple]) {
+    background-image: linear-gradient(45deg, transparent 49%, #dcdcdc 51%),
+    linear-gradient(135deg, #dcdcdc 51%, transparent 49%);
+    background-position: calc(100% - 15px), calc(100% - 10px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    padding-inline-end: 25px;
+}
+
+article, fieldset, dialog {
+    border: 1px solid #898EA4;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+textarea,
+select,
+input,
+progress {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
